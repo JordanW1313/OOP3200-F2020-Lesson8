@@ -1,3 +1,9 @@
+/**
+ * @author Jordan Wriker
+ * @date November 4, 2020
+ * @version 0.0.1
+ */
+
 package ca.durhmacollege;
 
 public class Person
@@ -9,19 +15,23 @@ public class Person
 
     // PUBLIC PROPERTIES
 
-    public String getName() {
+    public String getName()
+    {
         return m_name;
     }
 
-    public void setName(String m_name) {
+    public void setName(String m_name)
+    {
         this.m_name = m_name;
     }
 
-    public int getAge() {
+    public int getAge()
+    {
         return m_age;
     }
 
-    public void setAge(int m_age) {
+    public void setAge(int m_age)
+    {
         this.m_age = m_age;
     }
 
@@ -36,16 +46,19 @@ public class Person
         m_age = 0;
     }
 
-    public Person(String name, int age) {
+    public Person(String name, int age)
+    {
         this.m_name = name;
         this.m_age = age;
     }
 
-    public Person(int age) {
+    public Person(int age)
+    {
         this.m_age = age;
     }
 
-    public Person(String name) {
+    public Person(String name)
+    {
         this.m_name = name;
     }
 
@@ -53,7 +66,6 @@ public class Person
 
     /**
      * This method tests the person class and returns a simple message to the console
-     * @return {Void}
      */
     public void saysHello()
     {
@@ -65,7 +77,8 @@ public class Person
      * @return {String}
      */
     @Override
-    public String toString() {
+    public String toString()
+    {
         String outputString = "";
         outputString += "Name: " + this.m_name + " ";
         outputString += "Age: " + this.m_age;

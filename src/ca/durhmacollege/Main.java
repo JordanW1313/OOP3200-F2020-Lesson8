@@ -1,3 +1,9 @@
+/**
+ * @author Jordan Wriker
+ * @date November 4, 2020
+ * @version 0.0.1
+ */
+
 package ca.durhmacollege;
 
 public class Main {
